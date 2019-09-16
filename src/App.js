@@ -8,6 +8,8 @@ import DemoIf from './components/CauTrucDieuKhien_Rerender/DemoIf';
 import BaiTapState from './components/CauTrucDieuKhien_Rerender/BaiTapState';
 import DemoVongLap from './components/CauTrucLap/DemoVongLap';
 import BaiTapVongLap from './components/BaiTap2/BaiTapVongLap';
+import DemoProps from './components/Props/DemoProps';
+import BaiTapTruyenFunction from './components/Props/BaiTapTruyenFunction/BaiTapTruyenFunction';
 
 
 function App() {
@@ -19,7 +21,10 @@ function App() {
       {/* <DemoIf /> */}
       {/* <BaiTapState /> */}
       {/* <DemoVongLap /> */}
-      <BaiTapVongLap />
+      {/* <BaiTapVongLap /> */}
+      {/* <DemoProps/> */}
+      <BaiTapTruyenFunction />
+
     </div>
   );
 }
