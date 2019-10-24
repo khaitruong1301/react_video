@@ -8,6 +8,8 @@ import { connect } from 'react-redux';
         <img className="card-img-top" src={sanPham.hinhAnh} alt={sanPham.hinhAnh} width={200} height={300} />
         <div className="card-body">
           <h4 className="card-title">{sanPham.tenSP}</h4>
+          <h4 className="card-title">{sanPham.giaBan}</h4>
+
           <button className="btn btn-danger" onClick={()=> this.props.themGioHang(sanPham)}>Thêm giỏ hàng</button>
         </div>
       </div>
@@ -24,7 +26,7 @@ const mapDispatchToProps = (dispatch) => {
         tenSP: sanPham.tenSP,
         hinhAnh: sanPham.hinhAnh,
         soLuong: 1,
-        giaBan: 1
+        giaBan: sanPham.giaBan
       }
       //Tạo action đưa dữ liệu lên reducer
       const action ={
