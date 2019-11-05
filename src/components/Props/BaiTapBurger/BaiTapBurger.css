@@ -1,0 +1,66 @@
+.breadTop{
+    height: 20%;
+    width: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bc581e), to(#e27b36));
+    background: -webkit-linear-gradient(#bc581e, #e27b36);
+    background: -o-linear-gradient(#bc581e, #e27b36);
+    background: linear-gradient(#bc581e, #e27b36);
+    border-radius: 50% 50% 0 0;
+    -webkit-box-shadow: inset -15px 0 #c15711;
+    box-shadow: inset -15px 0 #c15711;
+    margin: 2% auto; 
+    position: relative;
+    height: 100px;
+}
+
+.breadBottom{
+
+    height: 13%;
+    width: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F08E4A), to(#e27b36));
+    background: -webkit-linear-gradient(#F08E4A, #e27b36);
+    background: -o-linear-gradient(#F08E4A, #e27b36);
+    background: linear-gradient(#F08E4A, #e27b36);
+    border-radius: 0 0 30px 30px;
+    -webkit-box-shadow: inset -15px 0 #c15711;
+    box-shadow: inset -15px 0 #c15711;
+    margin: 2% auto;
+    height: 100px;
+
+}
+
+.salad {
+  width: 70%;
+  height: 7%;
+  margin: 2% auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#228c1d), to(#91ce50));
+  background: -webkit-linear-gradient(#228c1d, #91ce50);
+  background: -o-linear-gradient(#228c1d, #91ce50);
+  background: linear-gradient(#228c1d, #91ce50);
+  border-radius: 20px;
+  height: 10px;
+}
+
+.beef{
+  width: 50%;
+    height: 8%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7f3608), to(#702e05));
+    background: -webkit-linear-gradient(#7f3608, #702e05);
+    background: -o-linear-gradient(#7f3608, #702e05);
+    background: linear-gradient(#7f3608, #702e05);
+    margin: 2% auto;
+    border-radius: 15px;
+    height: 50px;
+}
+
+.cheese{
+  width: 60%;
+    height: 4.5%;
+    margin: 2% auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f4d004), to(#d6bb22));
+    background: -webkit-linear-gradient(#f4d004, #d6bb22);
+    background: -o-linear-gradient(#f4d004, #d6bb22);
+    background: linear-gradient(#f4d004, #d6bb22);
+    border-radius: 20px;
+    height: 25px;
+}

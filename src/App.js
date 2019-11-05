@@ -12,6 +12,7 @@ import DemoProps from './components/Props/DemoProps';
 import BaiTapTruyenFunction from './components/Props/BaiTapTruyenFunction/BaiTapTruyenFunction';
 import BaiTapGioHang from './components/Props/BaiTapGioHang/BaiTapGioHang';
 import BaiTapGioHangRedux from './components/Props/BaiTapGioHangRedux/BaiTapGioHangRedux';
+import BaiTapBurger from './components/Props/BaiTapBurger/BaiTapBurger';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       {/* <DemoProps/> */}
       {/* <BaiTapTruyenFunction /> */}
       {/* <BaiTapGioHang /> */}
-      <BaiTapGioHangRedux />
+      {/* <BaiTapGioHangRedux /> */}
+      <BaiTapBurger />
     </div>
   );
 }
