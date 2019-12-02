@@ -13,6 +13,7 @@ import BaiTapTruyenFunction from './components/Props/BaiTapTruyenFunction/BaiTap
 import BaiTapGioHang from './components/Props/BaiTapGioHang/BaiTapGioHang';
 import BaiTapGioHangRedux from './components/Props/BaiTapGioHangRedux/BaiTapGioHangRedux';
 import BaiTapBurger from './components/Props/BaiTapBurger/BaiTapBurger';
+import BaiTapForm from './components/BaiTapForm/BaiTapForm';
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <BaiTapTruyenFunction /> */}
       {/* <BaiTapGioHang /> */}
       {/* <BaiTapGioHangRedux /> */}
-      <BaiTapBurger />
+      {/* <BaiTapBurger /> */}
+      <BaiTapForm />
     </div>
   );
 }

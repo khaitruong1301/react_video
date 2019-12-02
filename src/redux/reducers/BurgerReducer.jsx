@@ -26,7 +26,10 @@ export const BurgerReducer = (state = burgerState, action) => {
             //Tính tổng tiền
             state.total += amount * state.menu[propsBurger]; 
             return {...state}
-        }
+        };break;
+        default: {
+            return { ...state }
+        };break;
     }
-    return { ...state }
+  
 }

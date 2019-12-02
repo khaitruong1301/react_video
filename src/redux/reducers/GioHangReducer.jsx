@@ -22,7 +22,7 @@ export const GioHangReducer = (state = stateGioHang, action) => {
             //Gán giỏ hàng mới cho state.gioHang => render lại giao diện
             state.gioHang = gioHangCapNhat;
             return {...state};
-        }
+        };break;
         case 'XOA_GIO_HANG_MSP': {
             let gioHangCapNhat = [...state.gioHang];
             //tìm index sp dựa vào masp
@@ -33,7 +33,7 @@ export const GioHangReducer = (state = stateGioHang, action) => {
             //Gán giỏ hàng mới cho state.gioHang => render lại giao diện
             state.gioHang = gioHangCapNhat;
             return {...state}
-        }
+        };break;
         case 'TANG_GIAM_SL':{
             const {index,tangGiam} = action;
             console.log(action);
@@ -49,10 +49,13 @@ export const GioHangReducer = (state = stateGioHang, action) => {
            //cập nhật lại state của gioHangReducer 
            state.gioHang = gioHangCapNhat;
            return {...state};
-        }
+        };break;
+        default: {
+            return { ...state }
+        };break;
 
     }
-    return { ...state }
+
 }
 
  
